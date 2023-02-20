@@ -16,7 +16,7 @@ root.render(
     <Square/>
     <Triangle />
     <Hexagon />
-    <Circle/>
+    <Circle />
     <Rectangle />
   </React.StrictMode>
 );
