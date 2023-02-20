@@ -1,12 +1,10 @@
 import React from 'react';
 
 class Hexagon extends React.Component {
-    render(props) {
-    var s=props.s;
+    render() {
+    var s=5;
     var perimeter=6*s;
-    return{
-        perimeter
-    };
+    return  perimeter;
 }
 }
 export default Hexagon

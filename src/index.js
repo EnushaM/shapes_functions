@@ -13,11 +13,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
-    <Square s="6"/>
-    <Triangle b="4" h="5"/>
-    <Hexagon s="6"/>
-    <Circle r="8"/>
-    <Rectangle b="6" l="10"/>
+    <Square/>
+    <Triangle />
+    <Hexagon />
+    <Circle/>
+    <Rectangle />
   </React.StrictMode>
 );
 reportWebVitals();

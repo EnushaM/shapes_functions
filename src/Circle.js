@@ -1,13 +1,9 @@
 import React from 'react';
-//class Circle extends React.Component {
-    //render(props) {
-    function Circle(props)
-    {
-            var r=props.r;
-            var perimeter=2*3.14*r;
-            return(
-                perimeter
-            );
+class Circle extends React.Component {
+    render(props) {
+        var r=7;
+        var perimeter=2*3.14*r;
+        return  (<h2>Perimeter of Square:{this.perimeter}</h2>);
     }
-//}
-export default Circle    
+}
+export default Circle

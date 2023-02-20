@@ -1,12 +1,10 @@
 import React from 'react';
 
 class Square extends React.Component {
-    render(props) {
-    var s=props.s;
+    render() {
+    var s=9;
     var perimeter=4*s;
-    return{
-        perimeter
-    };
+    return  perimeter;
 }
 }
 export default Square

@@ -1,10 +1,8 @@
-function Triangle(props)
+function Triangle()
 {
-    var b=props.b;
-    var h=props.h;
+    var b=6;
+    var h=3;
     var perimeter=0.5* b*h;
-    return{
-        perimeter
-    };
+    return  perimeter;
 }
 export default Triangle
